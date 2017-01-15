@@ -3,12 +3,8 @@
 
 [![Join the chat at https://gitter.im/nastra/hackerrank](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nastra/hackerrank?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Solutions to <a href="http://www.hackerrank.com">HackerRank</a> and <a href="http://www.codechef.com">CodeChef</a> problems that were written in <b>Java & Python</b>. 
-<p>See also my profiles:
-<ul>
-<li><a href="https://www.hackerrank.com/nastra">HackerRank profile</a></li>
-<li><a href="http://www.codechef.com/users/nastra">CodeChef profile</a></li>
-</ul>
+Solutions to <a href="http://www.hackerrank.com">HackerRank</a> and <a href="http://www.codechef.com">CodeChef</a> problems that were written in <b>Java</b>. 
+
 </p>
 
 HackerRank Problems
