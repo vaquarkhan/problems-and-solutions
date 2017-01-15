@@ -1,0 +1,52 @@
+
+myStay — simplified hotel browsing!
+
+[Problem Statement]
+
+Develop a WebApp which would help travellers interactively like, save and share hotels online.
+
+[Minimum Requirement]
+
+— Page with an interactive design displaying hotel details (fetched from API).
+
+— A downloadable hotel detail; in either an image (JPG/PNG etc) OR a document format (DOC/PDF etc).
+
+— Emphasis on UI/UX and design of web app; Use your favourite javascript framework.
+
+— Submit the source code.
+
+[Plus Point]
+
+— Feature to slide/navigate hotels.
+
+— Extra: API Hit Count / Number of hotels.
+
+— Awesomeness: Like and Share Hotels; as well as Download hotel details.
+
+— You may add portfolio page/link comprising awesome work you have done on web applications.
+
+— Use your imagination to come up with additional features to simplify exploring hotels.
+
+[Guide]
+
+— Hotel API: http://glydel.0x10.info
+
+— use your favourite backend language to code around (Optional Technology Stack: Python and any JS Framework).
+
+— jQuery, angularJS or any of your favourite client side scripting language is plus!
+
+— For bootstrap/icons/fonts/textures:
+
+http://getbootstrap.com/getting-started/
+
+http://glyphsearch.com/
+
+http://subtlepatterns.com/thumbnail-view/
+
+https://www.google.com/fonts
+
+— Though the application can be build without storing any data in a database but if you can build an option of storing the data in a backend or HTML5 LocalStorage, you will get extra points for that.
+
+— You can use any simple database like LocalStorage, SQLite or MySQL, and while submitting your solution ZIP, include the SQL file along with instructions to set up the database.
+
+[Wireframe MVP / Reference]

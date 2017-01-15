@@ -1,0 +1,18 @@
+
+37
+down vote
+favorite
+20
+I recently came in contact with this interesting problem. You are given a string containing just the characters '(', ')', '{', '}', '[' and ']', for example, "[{()}]", you need to write a function which will check validity of such an input string, function may be like this:
+bool isValid(char* s);
+these brackets have to close in the correct order, for example "()" and "()[]{}" are all valid but "(]", "([)]" and "{{{{" are not!
+
+I came out with following O(n) time and O(n) space complexity solution, which works fine:
+
+Maintain a stack of characters.
+Whenever you find opening braces '(', '{' OR '[' push it on the stack.
+Whenever you find closing braces ')', '}' OR ']' , check if top of stack is corresponding opening bracket, if yes, then pop the stack, else break the loop and return false.
+Repeat steps 2 - 3 until end of the string.
+This works, but can we optimize it for space, may be constant extra space, I understand that time complexity cannot be less than O(n) as we have to look at every character.
+
+So my question is can we solve this problem in O(1) space?

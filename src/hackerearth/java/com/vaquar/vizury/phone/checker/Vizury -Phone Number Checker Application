@@ -1,0 +1,46 @@
+2.
+Phone Number Checker Application
+Max. Marks 100
+You are needed to test a Phone Number Checker Application that is made to be operational in four countries India, Japan, Russia and Australia. The Checker works as follows:
+It takes two space separated strings: Country Code and Phone Number. Each country has a Unique Country Code associated with it. The Phone Number has characteristic properties. It should only consist of Numerical Digits [0-9]. The string Phone Number has first two digits as Operator Code. The mobile operators can be Loya, Beetel, or Gamafone. It is followed by an 8-digit number, the Unique number for each user. 
+Country Codes are:
+India: 91
+japan: 81
+Australia: 61
+Russia: 7
+
+Operator Codes are:
+Loya: 99
+Beetel: 82
+Gamafone: 98
+
+Your task is to test this application on several different test cases and print them all to standard output.
+Your score will be judged on the basis of the checker algorithm.
+If all your test cases take unique different path, then your score will be maximum. If two test cases take same path, they will be considered similar and will be counted as 1. For eg: 10 9872074800 and 12 9872074800 , both will fall in the same case that Country Code is not Available.
+
+Note: You can print maximum of 100 Test Cases.
+
+Output format:
+Print the total number of Test Cases - T you are going to print in the first line.
+Following T lines each should contain a test data.
+
+Sample Output: 
+4 
+91 9891897644
+81 82bajd0000
+7 8810384949
+61 6289065476
+
+Sample Code :
+
+#include<iostream>
+using namespace std;
+int main()
+{
+      cout<<"4"<<endl; 
+      cout<<"91 9891897644"<<endl;
+      cout<<"81 82bajd0000"<<endl; 
+      cout<<"7 8810384949"<<endl; 
+      cout<<"61 6289065476"<<endl;
+      return 0;
+}

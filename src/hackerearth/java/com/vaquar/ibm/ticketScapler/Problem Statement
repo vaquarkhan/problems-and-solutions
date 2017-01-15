@@ -1,0 +1,15 @@
+Given an Array of Size N, each of the Nth element will be assigned a value A. If A = 5 then the 5th item is sold at price 5rs, 5th item is sold at price 4rs etc.
+If all the elements of the array join together and share their A values, for a given number K what can be the maximum value.
+
+Example 
+
+if N = 2 and 
+
+a[0] = 5
+a[1]= 2
+
+then both a0 and a1 can work together and sell a maximum of K=4 items then the profit earned are
+
+5+4+3+2 ie 14
+
+

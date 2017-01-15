@@ -1,0 +1,97 @@
+1.
+[Problem Statement]
+
+Develop a web application which would help end users list and browse member details.
+
+[Minimum Requirement]
+
+— Fetch member details via given API. (having 1500+ records).
+
+Data Parameters: members[] —> { id, status, ethnicity, weight, height, is_veg, drink, dob}
+
+status AS text (profile description)
+
+ethnicity AS integer (1-9)
+
+weight AS integer (in grams)
+
+height AS integer (in centimetre)
+
+is_veg AS boolean
+
+drink AS boolean
+
+dob AS date
+
+image AS text (Avatar Image url)
+
+^ Some parameters may have null value in it; handle it carefully!
+
+• convert ethnicity from integer to Text.
+
+• convert weight from grams to Kilograms
+
+— List status and categorise ethnicity.
+
+— Submit Screenshots, Documentation and Source code with instruction.
+
+[Plus Point]
+
+— a feature to add infinite scroll and utilise API paging.
+
+API Limits response to max. 10 records and add paging: /idfy-member?page=1
+— Easy setup with instructions and documentation to make deployment easier.
+
+— A feature to favourite status and list favourited status (RoR).
+
+— Implement meaningful Graph from member’s height and weight with respect to min/max height and weight (if time permits).
+
+* height # (min: 142, max, 208)         [in CM]
+* weight # (min: 36.3, max: 108.8)  [in KG]
+— Add Download option to download member details (as PDF) [Via RoR].
+
+— Use your imagination and add features which would make feature rich web app; we always admire creativity.
+
+[Advance Level] (Optional / If time permits)
+
+— Implement Search (by status, height or ethnicity) feature.
+
+— A feature to filter Vegan in list. Also Share member status across social media.
+
+— Do the statistical analysis on ethnic group if time permits.
+
+i.e. percentile number of Asians, average height/weight, number of drinkers and non-drinkers.
+— Handle Input Exceptions, Unicode and Null values. Beautify; Comment; Documented code.
+
+— Awesome If you could manage to host this application somewhere with Demo URL! (heroku or AWS)
+
+— You may add portfolio activity comprising awesome work you have done on web applications.
+
+[Guide]
+
+— Member API: https://idfy.0x10.info/
+
+Use this gist to convert Ethnic number to Text: https://gist.github.com/mayurah/ade1e2666b651b7e5c4a
+— Given mockup design is just for reference, you may come up with your own design and layout.
+
+— Emphasis on backend to manage favourites and download feature.
+
+— Ideal Stack:
+
+You shall use RoR, any SQL/NoSQL to handle backend operations.
+
+Feel free to use any front-end layout to simplify user experience (any CSS, JS framework).
+
+— You may use below resources for misc. things:
+
+http://subtlepatterns.com/thumbnail-view/
+
+http://getbootstrap.com/components/
+
+http://codebeautify.org/jsonvalidate
+
+[Wireframe MVP / Reference Structure]
+
+enter image description here
+
+enter image description here

@@ -1,0 +1,33 @@
+You want to spend your next vacation in a foreign country. In the summer you are free for N Consecutive days. You have consulted Travel Agency and learned That They are Offering a trip to some interesting location in the country every day. For simplicity, Each location is Identified by a number from 0 to N - 1st Trips are DESCRIBED in a non-empty zero-indexed array A: for each K (0 ≤ K <N), A [K] is the identifier of and location Which is the destination of a trip on day Offered K. Travel Agency does not have to offer trips to all locations, and can offer More than one trip to some locations.
+
+You want to go on a trip every day During your vacation. Moreover, you want to visit all locations Offered by Travel Agency. May you visit the same location more than once, but you want to minimize duplicate visits. The goal is to find the Shortest vacation (and a range of Consecutive days) That will allow you to visit all the locations Offered by Travel Agency.
+
+For example, consider the array and dry That:
+A [0] = 7
+A [1] = 3
+A [2] = 7
+A [3] = 3
+[4] = 1
+A [5] = 3
+and [6] = 4
+A [7] = 1
+
+Travel Agency offers trips to four different locations (Identified by numbers 1, 3, 4 and 7). The Shortest vacation starting on day 0 That Allows you to visit all locations proposition ends on day 6 (THUS is seven days long). Referring to: a Shorter vacation of five days (starting on day 2 and ending on day 6) Also Permits you to visit all locations. On every vacation Shorter Than five days, you will have to miss the least at one location.
+
+Write a function:
+
+int solution (A int [], int N);
+
+That, given a non-empty zero-indexed array A consisting of N integers, returns the length of the Shortest vacation That Allows you to visit all the Offered locations.
+
+For example, given the Array Shown above, the function should return 5, as Explained above.
+
+Assume That:
+
+N is an integer Within the range [1..100,000]
+Each element of the array A is an integer Within the range [0..N - 1].
+
+Complexity:
+
+expected worst-case time complexity is O (N)
+expected worst-case space complexity is O (N) beyond storage input (not counting the storage required for input arguments).

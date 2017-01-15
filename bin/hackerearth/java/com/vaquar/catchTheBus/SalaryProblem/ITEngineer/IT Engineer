@@ -1,0 +1,17 @@
+NAVI is a talented IT engineer. He always like to find all possible different ways to solve a problem in any situation. Today he has decided to visit his friend’s home to attend a party. He has decided to take a shortest path for a journey. To decide this, he has to consider all possible paths to reach there. There is a construction that is going on , due to which he can only move left or down (means if he is at (x, y) then from here he can go to either (x, y - 1) or (x - 1, y) ). But he has lost his notebook and pen so he is asking you to tell him the number of ways to reach his friend’s home which is located at (0, 0) from his home which is located at (X, Y).
+
+Note : He can only move to (P, Q) such that 0 <= P <= X and 0 <= Q <= Y.
+
+Input
+
+First line of the input will contain T (number of test cases), for each test case there will be one line having X and Y separated by a space.
+
+Output
+
+Print the required number of ways with mod to 10^9 + 7. And print in this format : Case--#t:--ans (‘--’ is for a single space and t is for test case number).
+
+Constraints
+
+1 <= T <= 10^5.
+0 <= X , Y <= 5*10^5.
+

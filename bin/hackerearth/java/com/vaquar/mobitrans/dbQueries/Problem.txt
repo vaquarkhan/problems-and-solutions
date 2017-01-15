@@ -1,0 +1,57 @@
+You are given two tables: Employees and Employee_pan. Column '' denotes the ID of the employee in both tables.Print the employee NAME and UIN in each line. If no UIN is present print NULL in its place.
+
++-------------+--------------+
+| Field       | Type         |
++-------------+--------------+
+| ID (PK)     | int          |
+| Name        | char(20)     |
+| Users       | int          |
+| Age         | int          |
+| Address     | char(25)     |
+| Salary      | decimal(18,2)|
++-------------+--------------+
+
++-------------+--------------+
+| Field       | Type         |
++-------------+--------------+
+| ID (PK)     | int          |
+| UIN         | int          |
++-------------+--------------+
+
+Answer:
+
+SELECT EMP.NAME, PAN.UIN FROM EMPLOYEES EMP LEFT OUTER JOIN EMPLOYEE_PAN PAN ON (EMP.ID = PAN.ID);
+
+
+2)
+
+You are given the table LANGUAGE (ID, NAME, USERS) where the columns represent id numbers, name of the programming language and number of users respectively.
+
+List the top 3 languages with the highest number of users&nbsp;(in increasing&nbsp;order of&nbsp;number of users).
+
++-------------+----------+
+| Field       | Type     |
++-------------+----------+
+| ID (PK)     | int      |
+| Name        | char(20) |
+| Users       | int      |
++-------------+----------+
+
+Answer:
+SELECT NAME FROM (SELECT * FROM LANGUAGE ORDER BY USERS DESC) LAN WHERE ROWNUM <=3 ORDER BY NAME ASC;
+
+
+3)You are given the table 'COMICS' with columns ID, NAME, LAT,&nbsp;LNG (Id of the hero, Name of the hero, latitudes of his position and longitudes of his position).
+
+Print all hero names whose name has less than or equal to 10 characters.
++-------------+--------------+
+| Field       | Type         |
++-------------+--------------+
+| ID (PK)     | int          |
+| Name        | char(20)     |
+| LAT         | real         |
+| LNG         | real         |
++-------------+--------------+
+
+Answer:
+ SELECT NAME FROM COMICS WHERE CHAR_LENGTH(NAME) <=10;

@@ -1,0 +1,15 @@
+Given input Array . Recursively add the first element to rest of the elements and return the final solution
+
+Example
+
+Input
+1, 4, 7
+
+Output
+13
+
+Explaination
+Step 1) 1 is added to 4 and 7 to result 5 and 8
+Step 2) 5 is added to 7 to result 13
+Step 3) End of recursion, Printing 13
+

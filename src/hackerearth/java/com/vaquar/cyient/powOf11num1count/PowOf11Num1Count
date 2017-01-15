@@ -1,0 +1,5 @@
+For a given input N, where N <= 1000. Get the number of 1s in the 11^N solution
+
+
+i.e if N= 3 then 11^3= 1331 and count of 1s in 1331 is 2
+Therefore the solution is 2

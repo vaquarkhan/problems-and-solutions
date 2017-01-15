@@ -1,0 +1,48 @@
+11.
+Numerical Armageddon Round 1
+Max. Marks 100
+Puchi, sitting at home getting bored, decided to do something interesting. He wanted to meet the God of Numbers, Numz! Hence, he started solving numerical problems, day in and day out without any break. After many days of continuous effort, Numz was delighted with Puchi's dedication and invited him over for tea. At tea, Puchi exclaimed that humans have now become proficient in numbers and could surpass Numz with their knowledge and ability. Numz, being the God of Numbers got infuriated and challenged Puchi for a numerical Armageddon!, of what could go on to establish the numerical superiority of Gods over Humans. 
+
+The first round of Armageddon begins. Numz locks Puchi in a cage and gives him a string S, consisting of only numerical digits [0-9] , and declares:
+
+I shall release a hungry lion in this cage. You shall not fight with the lion, but only satisfy its hunger. The lion eats every minute a number that does not leave a remainder when divided by 6. You can use a subsequence of the string S to form a number and feed it to the lion. Beware! You can use each subsequence only once. Good Luck Mortal!
+
+Given the string S, can you tell how many minutes will Puchi survive? 
+
+INPUT
+First line contains an integer T. T test cases follow. 
+Each test case contains a string S of numerical digits [0-9] . 
+
+OUTPUT
+Print the answer to each test case modulo 109 + 7 in a new line.
+CONSTRAINTS:
+1 = T = 10
+1 = |S| = 106
+S contains only numerical digits [0-9]
+
+References
+Subsequence : http://en.wikipedia.org/wiki/Subsequence
+
+Sample Input(Plaintext Link)
+ 4
+1232
+1023
+23
+10
+Sample Output(Plaintext Link)
+ 3
+3
+0
+1
+Explanation
+Test Case 1: Puchi feeds numbers 12, 12, 132 and can survive 3 minutes
+Please note that both 12s are different subsequence of S. One of them is made of 1st and 2nd character of S and the other is made of 1st and 4th character of S.
+
+Test Case 2: Puchi feeds numbers 0, 12, 102 and can survive 3 minutes
+
+Time Limit: 2 sec(s) for each input file.
+Memory Limit: 256 MB
+Source Limit: 1024 KB
+Marking Scheme: Marks are awarded if any testcase passes.
+Allowed languages: C, CPP, CLOJURE, CSHARP, GO, HASKELL, JAVA, JAVASCRIPT, OBJECTIVEC, PERL, PHP, PYTHON, RUBY, RUST
+SUBMISSIONSSkip

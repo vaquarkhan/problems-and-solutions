@@ -1,0 +1,44 @@
+Problem Statement
+
+Imagine you have a class called Human that represents human.
+
+This class holds some information about a person, such as their name and age. We also have a way for a person to introduce themselves, sharing their name and age.
+
+What we need you to do: Create a class called Superhero, as a subclass of Human.
+
+The Superhero class should contain a new string that stores the alter­ego name for these superheroic humans.
+
+Override the introduce method to return the alterEgo in addition to the name and age.
+
+Finally, You have to implement the Comparable interface to sort instances of Human and its subclasses by age.
+
+Input Format
+
+The first line of input contains integer N - Number of Testcases.
+
+For each line i (1 <= i <= N) - If the first argument is "SuperHero", It is followed by 3 more arguments stating name, age and alterEgo.
+
+If the first argument is "Human", It is followed by 2 more arguments stating name and age.
+
+Output Format
+
+The output contains 2*N lines. The first N lines are the output from the introduce() function. Second N lines are values of age in ascending order.
+
+Note: Order in which input is given, Output from Introduce() function should be printed in the same order.
+
+Check the sample input and sample output for better understanding.
+
+Sample Input(Plaintext Link)
+ 2
+Superhero Bruce 26 Batman
+Human Pepper 22
+Sample Output(Plaintext Link)
+ Hey! I'm Bruce and I'm 26 years old. I'm also known as Batman!
+Hey! I'm Pepper and I'm 22 years old.
+22
+26
+Time Limit: 10 sec(s) for each input file.
+Memory Limit: 256 MB
+Source Limit: 1024 KB
+Marking Scheme: Marks are awarded if any testcase passes.
+Allowed languages: JAVA

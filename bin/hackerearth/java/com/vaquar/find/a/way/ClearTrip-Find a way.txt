@@ -1,0 +1,32 @@
+[NOTE: I COULDN'T SOLVE THIS PROBLEM, IF ANY ONE HAS A SOLUTION PLEASE SHARE IT]
+
+Find a Way!
+Max. Marks 100
+Given a 5 x 5 Grid comprising of tiles numbered from 1 to 25 and a set of 5 start-end point pairs.
+For each pair,find a path from the start point to the end point.
+The paths should meet the below conditions:
+a) Only Horizontal and Vertical moves allowed.
+b) No two paths should overlap.
+c) Paths should cover the entire grid
+
+Input:
+Input consist of 5 lines.
+Each line contains two space-separated integers,Starting and Ending point.
+
+Output:
+Print 5 lines. Each line consisting of space-separated integers,the path for the corresponding start-end pair.
+Assume that such a path Always exists.
+In case of Multiple Solution,print any one of them.
+
+Sample Input(Plaintext Link)
+ 1 22
+4 17
+5 18
+9 13
+20 23
+Sample Output(Plaintext Link)
+ 1 6 11 16 21 22
+4 3 2 7 12 17
+5 10 15 14 19 18
+9 8 13
+20 25 24 23
